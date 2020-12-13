@@ -1,3 +1,4 @@
+# include_context injects the predefined context into example group
 RSpec.shared_context 'common' do
   before do
     @foods = []

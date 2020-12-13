@@ -1,7 +1,7 @@
 RSpec.describe Hash do
 
   # here subject is used as Hash. By default rspec provides the described class to be as subject
-  
+  # By default subject equal to an instance of the class
   it 'should start with emoty' do
     expect(subject.length).to eq(0)
     subject[:some_key] = "some key"

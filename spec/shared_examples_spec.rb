@@ -1,5 +1,6 @@
 # shared examples can be used across multiple example groups
 # subject inside shared example will be lazy loaded it refer to a called example described class
+# the include_examples injects predefined example into example group
 RSpec.shared_examples "Ruby object which returns length" do
   it 'should return the length of an object' do
     expect(subject.length).to eq(3)
